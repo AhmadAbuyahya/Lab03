@@ -9,8 +9,8 @@ else { discount = "Incorrect order"; }
 
 document.write(discount);
 
-document.getElementById("order").textContent = producttype;
-document.getElementById("products").textContent = noProduct;
+document.getElementById("order").textContent=producttype;
+document.getElementById("products").textContent=noProduct;
 
 confirm("Are sure you want to make this purchase?");
 alert("Thank for using our shop!!");
