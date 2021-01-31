@@ -6,10 +6,10 @@ while (product !== "phone" && product !== "laptop") {
 
 var image = ''
 if(product==="phone"){
-image='<img src = "images/phone.png"/>';
+image='<img class="img" src = "images/phone.png"/>';
 }
 else if(product==="laptop"){
-    image='<img src="images/laptop.png"/>';
+    image='<img class="img" src="images/laptop.png"/>';
 }
 var number=prompt("How many would you like to order?")
 var result='';
